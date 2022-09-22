@@ -124,6 +124,7 @@ References
 * https://www.typescriptlang.org/cheatsheets
 * https://mariusschulz.com/blog/series/typescript-evolution
 * https://learntypescript.dev/
+* https://github.com/total-typescript/type-transformations-workshop
 
 ---
 layout: center
