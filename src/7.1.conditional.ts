@@ -23,11 +23,3 @@ type Example3 = RegExp extends Animal
   : unknown;
 
 // type constraint with extends
-
-type MessageOf<T extends { message: unknown }> = T["message"];
-
-interface Email {
-  message: string;
-}
-
-type EmailMessageContents = MessageOf<Email>;

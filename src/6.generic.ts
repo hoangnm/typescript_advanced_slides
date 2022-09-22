@@ -21,12 +21,25 @@ boxA.contents;
 const boxB: StringBox = { contents: "world" };
 boxB.contents;
 
-// type constraints
+// type constraints with extends
 class Personalization {
   static greet<T extends { name: string }>(obj: T) {
     return "Hello " + obj.name;
   }
 }
+
+type MessageOf<T extends { message: unknown }> = T["message"];
+
+interface Email {
+  message: string;
+}
+
+type EmailMessageContents = MessageOf<Email>;
+
+const email = {
+  message: "test",
+};
+type Email1 = MessageOf<typeof email>;
 
 // class
 
