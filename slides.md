@@ -47,7 +47,7 @@ css: unocss
 1. Structural type vs Nominal type
 2. Problems with any and as
 3. Narrowing type
-4. Function
+4. Function overload
 5. Unknown type
 
 ---
@@ -58,7 +58,8 @@ css: unocss
 8. Mapped Type
 9. Template Literal Type
 10. Decorator
-11. Challenges
+11. This in class
+12. Challenges
 
 
 ---
@@ -120,6 +121,7 @@ getProductName(pC);
 
 References
 * https://www.typescriptlang.org/docs/handbook/2/basic-types.html
+* https://www.typescriptlang.org/cheatsheets
 * https://mariusschulz.com/blog/series/typescript-evolution
 * https://learntypescript.dev/
 
